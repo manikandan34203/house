@@ -1,0 +1,127 @@
+/* Make the navbar fixed at the top */
+.navbar {
+    height: 80px;
+    display: flex;
+    justify-content: space-between; /* Align items to the left and right */
+    align-items: center;
+    padding: 10px 0; /* Adjust padding as needed */
+    background-color: white; /* Background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for a subtle effect */
+    position: fixed; /* Fixed positioning */
+    width: 100%; /* Full width */
+    top: 0; /* Align at the top */
+    left: 0; /* Align at the left */
+    z-index: 1000; /* Ensure it's on top of other content */
+}
+.nav-logo{
+    height: 70px;
+    width: 200px;
+}
+.nav-logo:hover{
+    cursor: pointer;
+}
+/* Style for heading */
+.navbar-heading {
+    font-size: 28px;
+    font-weight: 700;
+    color: black; /* Text color */
+    text-shadow: 
+        0 0 10px rgba(255, 255, 255, 0.7), /* White glow effect */
+        0 0 20px rgba(255, 255, 255, 0.5); /* More intense white glow effect */
+}
+
+/* Center navigation links */
+.navbar-center {
+    display: flex;
+    gap: 20px; /* Space between links */
+    flex-grow: 1; /* Take up remaining space */
+    justify-content: center; /* Center the links */
+    font-size: 18px; /* Increased font size */
+}
+
+/* Style for links */
+.navbar-link {
+    color: black; /* Text color */
+    font-size: 18px; /* Increased font size */
+    font-weight: 700; /* Bold text */
+    text-decoration: none;
+    transition: color 0.3s;
+    margin-right: 30px;
+}
+
+.navbar-link:hover {
+    color: #007bff; /* Change color on hover */
+    text-decoration: underline;
+}
+
+/* Style for right section of the navbar */
+.navbar-right {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    gap: 30px; /* Space between links */
+    margin-right: 15px;
+    margin-left: 20px
+    
+}
+.navbar-right p{
+    margin-left: 15px;
+    margin-top: 6px;
+}
+/* Style for buttons */
+.navbar-button {
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: black; /* Background color */
+    border: 2px solid white; /* White border to match text color */
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    margin-right: 21px;
+}
+#nav-login{
+    border:1px solid black;
+    height:35px;
+    align-items: center;
+    color: #ffffff;
+    background-color: black;
+    width:80px;
+    border-radius: 3px;
+   
+}
+#mani{
+    border-radius: 0px;
+    background: white;
+    border: none;
+    color: black;
+    margin-right: -5px;
+    
+}
+
+.navbar-button:hover {
+    background-color: #495057;
+    transform: scale(1.05);
+}
+
+/* Style for icons */
+.navbar-icon {
+    color: black; /* Icon color */
+    font-size: 24px; /* Icon size */
+    margin-right: -10px; /* Space between icon and buttons */
+    cursor: pointer;
+}
+
+/* Style for paw icon */
+.navbar-paw {
+    color: black;
+    font-size: 24px;
+}
+.nav-logo{
+    height:250px;
+    width:350px;
+}

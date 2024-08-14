@@ -1,0 +1,93 @@
+/* StudentPage.css */
+
+.student-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-form {
+    margin-top: 20px;
+  }
+  
+  .add-form input,
+  .add-form select,
+  .add-form button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-form button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-form button:hover {
+    background-color: #218838;
+  }
+  
+  .sort-controls {
+    margin-top: 20px;
+  }
+  
+  .sort-dropdown {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  table td input[type="checkbox"] {
+    cursor: pointer;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .students-count {
+    font-weight: bold;
+  }
+  
+  .students-count div {
+    margin: 10px 0;
+  }
+  

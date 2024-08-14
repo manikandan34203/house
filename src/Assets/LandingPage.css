@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: #17d614;  /* Fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b6fbff, #b754b5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #f9f9f8); /* Apply the gradient background */
+    margin: 0;
+    padding-bottom: 100px; /* Space for footer */
+}
+
+.house-image {
+    position: relative;
+    width: 100vw; /* Full viewport width */
+    height: 92vh; /* Adjust height as needed */
+    margin: 0; /* Remove default margin */
+    overflow: hidden; /* Ensure no overflow */
+    margin-left: -110px;
+}
+
+.house-image-video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; /* Cover the container */
+}
+
+.house-image-text {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the text */
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for readability */
+    text-align: center; /* Center text */
+    font-size: 20px; /* Font size */
+    font-weight: 700; /* Bold text */
+    padding: 20px; /* Padding around text */
+    line-height: 1.2; /* Reduce line spacing */
+}
+
+.house-image-text h1 {
+    margin: 0; /* Remove default margin */
+    font-family: 'Papyrus', sans-serif; /* Change to your desired font family */
+    font-size: 3rem; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+    text-transform: uppercase; /* Make text uppercase */
+    letter-spacing: 5px; /* Add spacing between letters */
+    color:  black;
+}
+
+.house-image-text p {
+    margin: 0; /* Remove default margin */
+    font-family: 'FELIX TITLING', sans-serif; /* Change to your desired font family */
+    font-size: 1rem; /* Adjust font size as needed */
+    text-transform: uppercase; /* Make text uppercase */
+    letter-spacing: 1px; /* Add spacing between letters */
+    margin-left: 30px;
+}
+
+.heading {
+    font-size: 2rem;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+/* Container for search input and button */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* Margin for spacing */
+}
+
+.search-bar {
+    padding: 10px;
+    border: 2px solid black; /* Black border */
+    border-radius: 20px; /* Rounded corners */
+    width: 300px; /* Adjust width as needed */
+    font-size: 1rem; /* Font size */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    margin-right: 10px; /* Space between input and button */
+}
+
+.search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    background-color: black; /* Black background */
+    color: white; /* White font color */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.search-button:hover {
+    background-color: #333; /* Darker black on hover */
+    transform: scale(1.05);
+}
+
+.city-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid layout */
+    gap: 20px; /* Space between grid items */
+    justify-content: center; /* Center the grid items horizontally */
+    width: 100%;
+    max-width: 1200px; /* Max width for the grid */
+    margin: 0 auto; /* Center the grid container */
+    padding: 0 20px; /* Padding for the container */
+}
+
+/* CityCard.css */
+.city-card {
+    text-decoration: none; /* Remove underline from link */
+    color: inherit; /* Inherit text color */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd; /* Border around card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.city-card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.city-card-image {
+    width: 100%;
+    height: 200px; /* Adjust height */
+    overflow: hidden;
+}
+
+.city-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the container */
+}
+
+.city-card-content {
+    padding: 15px;
+    background-color: #fff; /* Background color for content area */
+}
+
+.city-name {
+    margin: 0;
+    font-size: 1.5rem; /* Adjust font size as needed */
+    font-weight: bold; /* Bold text */
+}
+
+.city-description {
+    font-size: 1rem; /* Font size for description */
+    color: #555; /* Slightly gray color for text */
+    margin: 10px 0; /* Margin around description */
+}

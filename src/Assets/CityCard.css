@@ -1,0 +1,50 @@
+/* CityCard.css */
+.city-card {
+    text-decoration: none; /* Remove underline from link */
+    color: inherit; /* Inherit text color */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd; /* Border around card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.city-card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.city-card-image {
+    width: 100%;
+    height: 200px; /* Adjust height */
+    overflow: hidden;
+}
+
+.city-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the container */
+}
+
+.city-card-content {
+    padding: 15px;
+    background-color: #fff; /* Background color for content area */
+}
+
+.city-name {
+    margin: 0;
+    font-size: 1.5rem; /* Adjust font size as needed */
+    font-weight: bold; /* Bold text */
+}
+
+.city-description {
+    font-size: 1rem; /* Font size for description */
+    color: #555; /* Slightly gray color for text */
+    margin: 10px 0; /* Margin around description */
+}
+
+.map-container {
+    width: 100%;
+    height: 200px; /* Adjust height */
+}

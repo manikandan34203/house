@@ -1,0 +1,341 @@
+.property-detailspd {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .property-imagespd {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .property-imagespd img {
+    width: 25%;
+    object-fit: cover;
+  }
+  
+  .property-navpd {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .nav-itempd {
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .nav-itempd.active {
+    border-bottom: 2px solid #00aaff;
+  }
+  
+  .property-aboutpd {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .property-aboutpd h2 {
+    margin-top: 0;
+  }
+  
+  .property-aboutpd p {
+    margin: 10px 0;
+  }
+  
+  .property-aboutpd button {
+    background: none;
+    border: none;
+    color: #00aaff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .property-overviewpd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .overview-itempd {
+    flex: 1 1 200px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  .overview-itempd span {
+    margin-left: 8px;
+  }
+  
+  .rent-depositpd {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 10px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f8f8f8;
+  }
+  
+  .detailspd {
+    padding: 20px;
+  }
+  
+  .headerpd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .headerpd h2 {
+    margin: 0;
+  }
+  
+  .toggle-detailspd {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .bookingpd {
+    margin: 20px 0;
+    color: #007bff;
+  }
+  
+  .house-infopd {
+    display: flex;
+    align-items: center;
+  }
+  
+  .house-imagepd-container {
+    position: relative;
+  }
+  
+  .house-imagepd-container:hover .house-imagepd {
+    transform: scale(1.2);
+  }
+  
+  .house-imagepd {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+  }
+  
+  .house-statuspd {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: #00c851;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+  }
+  
+  .house-detailspd {
+    flex-grow: 1;
+    margin-left: 15px;
+    background-color: #93d0e7;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80px;
+  }
+  
+  .house-availabilitypd h3 {
+    margin: 5px 0 0 0;
+  }
+  
+  .house-availabilitypd p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .house-costpd p {
+    margin: 1px 0;
+  }
+  
+  .rent-detailspd .rent-rowpd {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 15px 0;
+  }
+  
+  .rent-detailspd .rent-infopd {
+    flex-grow: 1;
+  }
+  
+  .rent-detailspd .rent-infopd span {
+    font-weight: bold;
+  }
+  
+  .rent-detailspd .rent-infopd p {
+    margin: 5px 0 0 0;
+    color: #555;
+  }
+  
+  .rent-amountpd {
+    font-weight: bold;
+  }
+  
+  .dividerpd {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+    color: #007bff; /* Change the color here */
+  }
+  
+  .house1pd-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .house1pd-mapButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .house1pd-mapButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .house1pd-tags {
+    margin-bottom: 20px;
+    border-radius: 90px;
+    margin-top: 10px;
+  }
+  
+  .house1pd-tag {
+    display: inline-block;
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .house1pd-imageGrid {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .house1pd-mainImage {
+    flex: 2;
+    max-width: 50%;
+    height: 650px;
+    border-radius: 8px;
+  }
+  
+  .house1pd-sideImages {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .house1pd-sideImages img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .house1pd-imageGrid {
+    margin: 20px 0;
+}
+
+
+/* CSS */
+.button-86 {
+  all: unset;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-86::after,
+.button-86::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button-86::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #5aa9d0;
+  border-radius: 10px;
+}
+
+.button-86::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button-86:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button-86:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.button-86:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}

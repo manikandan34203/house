@@ -1,0 +1,76 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .house1-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .house1-mapButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .house1-mapButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .house1-tags {
+    margin-bottom: 20px;
+  }
+  
+  .house1-tag {
+    display: inline-block;
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .house1-imageGrid {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .house1-mainImage {
+    flex: 2;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .house1-sideImages {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .house1-sideImages img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
